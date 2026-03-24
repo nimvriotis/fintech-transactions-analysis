@@ -102,6 +102,14 @@ This enables flexible analysis across:
 
 ---
 
+## Data Dictionary
+
+A detailed data dictionary is available in the project files:
+
+📄 [data_dictionary.xlsx](docs/data_dictionary.xlsx)
+
+---
+
 ## Methodology
 
 The project combines SQL and Power BI to perform end-to-end analysis.
