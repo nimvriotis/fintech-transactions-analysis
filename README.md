@@ -10,7 +10,7 @@ This project analyzes a fintech transactions dataset to understand customer beha
 
 Using MySQL for data preparation and Power BI for visualization, a multi-page dashboard was developed to explore transaction trends, identify high-value customers, and evaluate product contribution across categories.
 
-The analysis highlights that a small group of customers drives a large share of transaction value, while product performance remains relatively balanced across categories. These insights support more targeted customer strategies and data-driven business decisions.
+The analysis shows clear variation in customer contribution, with some customers generating significantly higher transaction value than others, while product performance remains relatively balanced across categories. These insights support more targeted customer strategies and data-driven business decisions.
 
 ---
 
