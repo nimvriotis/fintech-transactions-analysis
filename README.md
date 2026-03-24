@@ -164,7 +164,7 @@ During the process, a data import issue was identified and resolved:
 - Transaction value shows an overall increasing trend over time  
 - Average transaction size increased in later periods, indicating higher-value activity  
 - Product categories contribute relatively evenly to total value  
-- A small group of customers generates a large portion of total revenue  
+- Transaction value varies significantly across customers, with some customers generating much higher totals than others
 - There is a gap between total and active customers, indicating engagement opportunities  
 - Certain regions contribute more strongly to transaction value  
 
@@ -194,7 +194,7 @@ Based on the analysis:
 
 ## Limitations
 
-- Synthetic dataset, not real-world data  
+- Dataset sourced from Kaggle and does not fully capture the complexity of real-world fintech systems 
 - Revenue is simplified and does not include long-term customer value or cancellations  
 - No time-based cohort or retention analysis  
 - External business factors are not included  
