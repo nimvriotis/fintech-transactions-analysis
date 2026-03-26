@@ -137,25 +137,6 @@ The project combines SQL and Power BI to perform end-to-end analysis.
 
 ![SQL Validation](images/sql_data_validation.png)
 
-### Power BI (Modeling & Measures)
-
-- Built a star schema data model with fact and dimension tables  
-- Created DAX measures for key KPIs such as total value, average transaction amount, and active customers  
-- Designed interactive visuals with filters and slicers  
-
-#### Example Measures
-
-```dax
-Total Transaction Value = SUM(FactTransaction[TransactionAmount])
-
-Avg Transaction Amount = AVERAGE(FactTransaction[TransactionAmount])
-
-Active Customers =
-CALCULATE(
-    DISTINCTCOUNT(DimCustomer[CustomerID]),
-    DimCustomer[Status] = "Active"
-)
-```
 ---
 
 ### Data Cleaning Example
@@ -176,6 +157,27 @@ During the process, a data import issue was identified and resolved:
 
 ![Data Import Fix](images/sql_data_import_issue_null.png)
 
+---
+
+### Power BI (Modeling & Measures)
+
+- Built a star schema data model with fact and dimension tables  
+- Created DAX measures for key KPIs such as total value, average transaction amount, and active customers  
+- Designed interactive visuals with filters and slicers  
+
+#### Example Measures
+
+```dax
+Total Transaction Value = SUM(FactTransaction[TransactionAmount])
+
+Avg Transaction Amount = AVERAGE(FactTransaction[TransactionAmount])
+
+Active Customers =
+CALCULATE(
+    DISTINCTCOUNT(DimCustomer[CustomerID]),
+    DimCustomer[Status] = "Active"
+)
+```
 ---
 
 ## Results & Key Insights
